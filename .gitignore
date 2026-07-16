@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Checkpoints & caches (large)
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+hf_cache/
+.cache/
+logs/
+*.log
+wandb/
+runs/
+
+# Audio binaries (keep lyrics .txt if desired)
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+*.aac
+test_songs/*.mp3
+demo_playlist/
+test_playlist/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+credentials*
